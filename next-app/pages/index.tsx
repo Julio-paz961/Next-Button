@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Button from '../style/style-components'
 
 export default function Home() {
   return (
@@ -9,10 +10,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-         hello world
-        </h1>
-
+        <Button>
+          Click Aqui!
+        </Button>
       </main>
     </div>
   )
